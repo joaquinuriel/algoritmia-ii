@@ -6,14 +6,14 @@ def esPrimo(n):
             return False
     return True
 
+
 def permutar(n):
     return int(str(n)[::-1])
 
+
 def esPrimoCircular(n):
-    if esPrimo(n):
-        m = permutar(n)
-        return esPrimo(m)
-    return False
+    m = permutar(n)
+    return esPrimo(n) and esPrimo(m)
 
 
 lista = [
