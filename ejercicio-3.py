@@ -33,4 +33,3 @@ for i in subcadenas:
 
 print(f"Hay {len(divisibles)} subcadenas divisibles por 3")
 
-map(lambda x: 2*x, [1, 2, 3])
